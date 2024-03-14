@@ -42,3 +42,40 @@ A complete implementation of the solution allows the test in `spec/burger_order_
 * Create a git branch with your code customizations and put a pull request on the main branch, and let us know via @mention when to review the code.
 * If you have questions in the meantime, please also ask them via Github; either via comment in the open pull request or via a separate issue.
 * We will review your code and provide feedback. It is totally fine if you get stucked. We can try to finalize it together as a Team.
+
+
+### Solution by Subhan
+
+
+* The BurgerOrder service follows a specific logic to calculate the total price of a burger order:
+
+* Read Order Data: Reads order data from the provided JSON file, including items, promotion codes, and discount code.
+
+* Calculate Burger Prices: Calculates the initial total price of the burgers based on their types, sizes, and additional ingredients.
+
+* Apply Promotions: Applies any available promotions to reduce the total price based on predefined rules.
+
+* Apply Discount: Applies a discount code if available to further reduce the total price.
+
+* Round Total Price: Rounds the final total price to two decimal places for accurate representation.
+
+* Valid json file with data also handled in this service.
+
+
+
+### Execution of Calculation Service
+
+* BurgerOrder.calculate_total_price(path_of_your_file.json)
+
+
+
+## Unit Test Cases
+
+* I tried to wrote some other unit test cases to ensure the smooth working of this service engine.
+* For this, I have added two new json files under spec/fixtures to deal with test cases.
+
+
+## Git repository
+
+* I had created a new repo for this tech assignment and added you as a reviewer so that you can review my code.
+* For PR, I have created a new feature branch from main and expecting this is a JIRA ticket like JIRA-101 for branch creation.

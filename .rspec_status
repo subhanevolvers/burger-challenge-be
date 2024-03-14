@@ -1,0 +1,6 @@
+example_id                           | status | run_time        |
+------------------------------------ | ------ | --------------- |
+./spec/burger_order_spec.rb[1:1:1:1] | passed | 0.00118 seconds |
+./spec/burger_order_spec.rb[1:1:2:1] | passed | 0.00045 seconds |
+./spec/burger_order_spec.rb[1:1:2:2] | passed | 0.00019 seconds |
+./spec/burger_order_spec.rb[1:1:2:3] | passed | 0.00018 seconds |
